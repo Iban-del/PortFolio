@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+html{
+  background-color: rgb(41, 41, 41);
+  color: black;
+  background: repeating-linear-gradient(90deg, #3f87a6, #ebf8e1, #f69d3c);
+}
