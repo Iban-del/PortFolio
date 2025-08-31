@@ -30,7 +30,7 @@ const ProjectList: projectList[] = [
         content: "Système intelligent combinant automatisation physique et interface web pour surveiller et réguler la température d’une salle serveur, garantissant sécurité et efficacité énergétique."
     },
     {
-        name: "Interface d’images",
+        name: "Interface d'image",
         content: "Une petite interface permettant de modifier une image en appliquant différents filtres. Elle offre un aperçu en temps réel des changements, avec la possibilité de comparer facilement la version originale et la version modifiée."
     }
 ];

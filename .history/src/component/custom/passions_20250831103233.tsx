@@ -9,9 +9,9 @@ interface passionsList {
 
 const PassionsList:Array<passionsList> = [
     {content:"Apprendre de nombreuses choses"},
-    {content:"Développer tout et n'importe quoi"},
+    {content:"Développer tous et n'importe quoi"},
     {content:"Le cyberpunk"},
-    {content:"Le machine learning (apprentissage automatique)"},
+    {content:"Le machine learning"},
 ]
 
 const Passions = () =>{

@@ -32,7 +32,7 @@ const Study = () =>{
                 <PanelTitle title="$ cat /studies.txt"/>
                 <PanelContent>
                     <section>
-                        
+
                         {StudyListComponents}
                     </section>
                 </PanelContent>

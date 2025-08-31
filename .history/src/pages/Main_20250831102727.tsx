@@ -7,7 +7,6 @@ import Contact from "../component/custom/Contact"
 import Experience from "../component/custom/Experience"
 import Study from "../component/custom/Study"
 import Project from "../component/custom/Project"
-import Passions from "../component/custom/Passions"
 
 
 
@@ -48,7 +47,7 @@ const Main = ({
             <footer className="m-2 xl:m-5">
                 <Panel className="flex justify-center flex-col items-center">
                     <p>Iban DELETOILLE-ELIZALDE </p>
-                    <span className="text-white text-sm">Disponible pour vos projets</span>
+                    <span className="text-white text-sm">Disponible pour tous projets</span>
                 </Panel>
             </footer>
         )

@@ -48,7 +48,7 @@ const Main = ({
             <footer className="m-2 xl:m-5">
                 <Panel className="flex justify-center flex-col items-center">
                     <p>Iban DELETOILLE-ELIZALDE </p>
-                    <span className="text-white text-sm">Disponible pour vos projets</span>
+                    <span className="text-white text-sm">Disponible pour tous types de projets</span>
                 </Panel>
             </footer>
         )

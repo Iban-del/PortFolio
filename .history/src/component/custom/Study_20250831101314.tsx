@@ -22,7 +22,7 @@ const Study = () =>{
                     <h2># {el.name}:</h2>
                     <p>## {el.content}</p>
                 </div>
-            )
+            ) 
         })
     },[])   
 
@@ -32,7 +32,7 @@ const Study = () =>{
                 <PanelTitle title="$ cat /studies.txt"/>
                 <PanelContent>
                     <section>
-                        
+
                         {StudyListComponents}
                     </section>
                 </PanelContent>
