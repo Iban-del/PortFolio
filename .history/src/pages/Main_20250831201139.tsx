@@ -1,4 +1,4 @@
-import { lazy } from "react";
+import { lazy, Suspense } from "react";
 import { useMemo } from "react"
 import Panel from "../component/Panel/Panel"
 import Pre from "../component/Pre"
@@ -14,10 +14,12 @@ const Passions = lazy(() => import("../component/custom/Passions"));
 
 
 const Main = () =>{
+   
 
     const Core = useMemo(()=>{
         return (
             <main className="columns-1 md:columns-2 xl:columns-3 m-2 md:m-5 gap-4">*
+                <Suspense fallback={<div>Chargement...</div>} >
                     <div className="break-inside-avoid mb-4"><HowIAm/></div>
                     <div className="break-inside-avoid mb-4"><Skills/></div>
                     <div className="break-inside-avoid mb-4"><Project/></div>
@@ -25,6 +27,7 @@ const Main = () =>{
                     <div className="break-inside-avoid mb-4"><Contact/></div>
                     <div className="break-inside-avoid mb-4"><Study/></div>
                     <div className="break-inside-avoid mb-4"><Passions/></div>
+                </Suspense>
             </main>
         )
     },[])

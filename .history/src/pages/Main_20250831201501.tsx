@@ -1,4 +1,4 @@
-import { lazy } from "react";
+import { lazy, Suspense } from "react";
 import { useMemo } from "react"
 import Panel from "../component/Panel/Panel"
 import Pre from "../component/Pre"

@@ -8,8 +8,8 @@ const Skills = lazy(() => import("../component/custom/Skills"));
 const Project = lazy(() => import("../component/custom/Project"));
 const Experience = lazy(() => import("../component/custom/Experience"));
 const Contact = lazy(() => import("../component/custom/Contact"));
-const Study = lazy(() => import("../component/custom/Study"));
 const Passions = lazy(() => import("../component/custom/Passions"));
+const Study = lazy(() => import("../component/custom/Study"));
 
 
 
