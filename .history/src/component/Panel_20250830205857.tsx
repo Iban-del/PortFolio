@@ -1,0 +1,21 @@
+import { useRef, type JSX } from "react"
+
+interface panel{
+    children:JSX.Element|JSX.Element[]
+}
+
+const Panel = ({
+    children
+}:panel) =>{
+
+    const ref = useRef<HTMLElement>(null)
+
+    return (
+        <section
+            ref={ref}
+            className=""
+        >
+            {children}
+        </section>
+    )
+}

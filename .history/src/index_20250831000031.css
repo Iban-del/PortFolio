@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html{
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  color: rgb(184, 184, 184);
+}
+
+
+.bg-panel {background-color: rgb(0, 0, 0);position: relative;}
+
+
+.border-gray{border-color: #333;}
