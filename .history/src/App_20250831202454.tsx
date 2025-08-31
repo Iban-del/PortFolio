@@ -1,6 +1,6 @@
 import { lazy } from "react";
 
-const Main =lazy(() => import("./pages/Main"));
+const Main = lazy(() => import("./pages/Main"));
 
 function App() {
 
