@@ -1,1 +1,0 @@
-import{r as n,j as t}from"./index-DxXTQvai.js";const a=({children:s,className:e=""})=>{const l=n.useRef(null);return t.jsx("div",{ref:l,className:"w-full h-full p-1"+e,children:s})},o=({title:s,className:e=""})=>{const l=n.useRef(null);return t.jsxs("div",{ref:l,className:"w-full h-full p-1 text-white font-bold "+e,children:[s,t.jsx("hr",{})]})};export{o as P,a};
