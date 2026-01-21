@@ -18,7 +18,7 @@ const Main = ({
             >
 
                 
-                <color/>
+
                 <ambientLight intensity={AMBIENT_LIGHT} color={AMBIENT_COLOR} />
             </Canvas>
         </div>

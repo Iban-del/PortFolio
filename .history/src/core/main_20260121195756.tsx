@@ -4,7 +4,7 @@ import { Canvas } from "@react-three/fiber";
 const AMBIENT_LIGHT:number = 0.1;
 const AMBIENT_COLOR:Array<number> = [255,255,255];
 
-const BACKGROUND_COLOR:string = "#fff";
+const BA
 
 // fonction principale 
 const Main = ({
@@ -18,7 +18,7 @@ const Main = ({
             >
 
                 
-                <color/>
+
                 <ambientLight intensity={AMBIENT_LIGHT} color={AMBIENT_COLOR} />
             </Canvas>
         </div>
