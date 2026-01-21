@@ -1,0 +1,7 @@
+
+// fonction principale 
+const Main = ({
+    
+}) => {
+
+}
